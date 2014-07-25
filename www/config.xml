@@ -3,12 +3,12 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "com.sainiuc.wakeupearly"
-        version   = "1.0.1">
+        version   = "1.1.4">
 
     <name>Wake Up Early</name>
 
     <description>
-        Wake Up Early gives a personalised plan to help you wake up early by shifting your sleep schedule every day.
+        Wake Up Early gives a personalised plan to help you wake up early effortlessly.
     </description>
 
     <author href="http://sainiuc.com/wakeupearly" email="ebichir@gmail.com">
