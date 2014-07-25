@@ -144,9 +144,11 @@ function getPlan(){
 
     if(dideal.getTime() >= dwake.getTime())
     {
-        alert('Ideal wake up should be before usual wake up.');
+        alert('Desired wake up time should be before the usual wake up time.');
         return;
     }
+
+    $('html,body').animate({scrollTop: $("#shift").offset().top},'slow');
 
     var txt='To wake up early, follow this plan:';
     var mindiff = (dwake.getTime()-dideal.getTime())/60000;
@@ -193,8 +195,8 @@ function getPlan(){
     txt += '<br/><br/>Sleep: Sleep is preferable during this period or earlier. Continue to avoid light during this time.';
     txt += '<br/><br/>Seek light: Get as much light as possible. Spend time outdoors or near a bright window. Light is most important at the beginning of this period.';
     txt += '<br/><br/>If you start to drift back to your previous schedule, avoid light for 2 hours before sleep and seek light for 2 hours after wake up.';
-    txt += '<br/><br/><br/><br/>Disclaimer: Algorithm reviewed by <a target="_blank" href="https://www.linkedin.com/in/ebichir">Dr Elena Bichir</a>. ';
-    txt += 'This application does not give or represent medical advice.<br/><br/><br/>';
+    txt += '<br/><br/><br/><br/>Questions? Feedback? <a href="mailto:ContactWakeUpEarly@gmail.com">ContactWakeUpEarly@gmail.com</a>';
+    txt += '<br/><br/>Disclaimer: This application does not give or represent medical advice.<br/>Method checked by <a target="_blank" href="https://www.linkedin.com/in/ebichir">Dr Elena Bichir</a><br/><br/><br/>';
 
     $('#plandiv').html(txt);
 }
