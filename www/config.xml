@@ -11,13 +11,13 @@
         Wake Up Early gives a personalised plan to help you wake up early effortlessly.
     </description>
 
-    <author href="http://sainiuc.com/wakeupearly" email="ebichir@gmail.com">
+    <author href="http://sainiuc.com/wakeupearly" email="sainiuc@gmail.com">
         Stefan Sainiuc
     </author>
 
     <preference name="permissions" value="none"/>
 
-    <preference name="phonegap-version"           value="3.5.0" />          <!-- all: current version of PhoneGap -->
+    <preference name="phonegap-version"           value="3.7.0" />          <!-- all: current version of PhoneGap -->
     <preference name="orientation"                value="default" />        <!-- all: default means both landscape and portrait are enabled -->
     <preference name="target-device"              value="universal" />      <!-- all: possible values handset, tablet, or universal -->
     <preference name="fullscreen"                 value="true" />           <!-- all: hides the status bar at the top of the screen -->
